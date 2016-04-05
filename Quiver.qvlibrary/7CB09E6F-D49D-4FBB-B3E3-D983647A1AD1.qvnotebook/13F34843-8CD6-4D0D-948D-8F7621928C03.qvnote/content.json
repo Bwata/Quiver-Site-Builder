@@ -1,0 +1,10 @@
+{
+  "title": "Code Cell",
+  "cells": [
+    {
+      "type": "code",
+      "language": "php",
+      "data": "// comment\n$var\nfunction thing($param){\n    return $param;\n}"
+    }
+  ]
+}

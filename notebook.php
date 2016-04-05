@@ -6,7 +6,7 @@
 <body>
 <a href="/"><h1>Site Title</h1></a>
 <nav>
-    <?php 
+    <?php
         foreach ($metaTree['notebooks'] as $notebook) {
             if (strtolower($notebook['name']) == strtolower($notebookPage)) {
                 $pageNotebook = $notebook;
@@ -17,7 +17,7 @@
         }
      ?>
 </nav>
-<h2><?= $notebookPage; ?></h2>
+<h2><?= $pageNotebook['name']; ?></h2>
 <main>
 <?php
 

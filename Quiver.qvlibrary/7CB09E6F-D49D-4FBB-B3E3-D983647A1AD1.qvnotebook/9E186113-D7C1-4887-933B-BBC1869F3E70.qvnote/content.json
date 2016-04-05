@@ -1,0 +1,17 @@
+{
+  "title": "Text",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<p>This is text</p>\n"
+    },
+    {
+      "type": "text",
+      "data": "<p>many lines of text<br>many lines of text<br>many lines of text<br>many lines of text<br>many lines of text<br>many lines of text<br>many lines of text<br>many lines of text</p>\n"
+    },
+    {
+      "type": "text",
+      "data": "<p><strong>Bold</strong></p><p><i>italic</i></p><p><i><u>underline</u></i></p><p><strike>strike  through</strike></p><p><font color=\"#323232\" style=\"background-color: rgb(254, 250, 0);\">highlight</font></p>\n"
+    }
+  ]
+}

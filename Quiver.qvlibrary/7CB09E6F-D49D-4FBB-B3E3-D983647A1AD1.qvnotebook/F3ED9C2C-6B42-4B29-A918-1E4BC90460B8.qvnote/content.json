@@ -1,0 +1,15 @@
+{
+  "title": "Diagram",
+  "cells": [
+    {
+      "type": "diagram",
+      "diagramType": "sequence",
+      "data": "Title: Here is a title\nA->B: Normal line\nB-->C: Dashed line\nC->>D: Open arrow\nD-->>A: Dashed open arrow"
+    },
+    {
+      "type": "diagram",
+      "diagramType": "flow",
+      "data": "st=>start: Start:>http://www.google.com[blank]\ne=>end:>http://www.google.com\nop1=>operation: My Operation\nsub1=>subroutine: My Subroutine\ncond=>condition: Yes\nor No?:>http://www.google.com\nio=>inputoutput: catch something...\n\nst->op1->cond\ncond(yes)->io->e\ncond(no)->sub1(right)->op1"
+    }
+  ]
+}

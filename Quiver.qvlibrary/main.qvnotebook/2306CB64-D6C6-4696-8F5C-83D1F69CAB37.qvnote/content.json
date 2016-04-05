@@ -1,0 +1,13 @@
+{
+  "title": "Inbox and trash notebooks",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "The inbox and trash notebooks will not be displayed."
+    },
+    {
+      "type": "markdown",
+      "data": "however there will be some special notes the page builder will be looking for in the inbox notebook\n\n* `.home` will be displayed as the home page content\n* `.footer` will be displayed as the footer on all pages.\n* `.head` will replace all the contents of the html head tag with the contents of this note.\n* `.sidebar` will display contents in the sidebar\n\noverride any of these for each notebook page and note pages in the notebook"
+    }
+  ]
+}

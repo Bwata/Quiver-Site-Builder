@@ -1,0 +1,13 @@
+{
+  "title": "Notes with .",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "I fugure there should be some way of displaying some information without displaying it as a note. I decided to use the unix `.file` method. This means that any note with a tile that starts with `.` will not be displayed."
+    },
+    {
+      "type": "markdown",
+      "data": "There are also special `.` files. in each notebook if there is a notebook named `.page` then it will be displayed as the main content of the notebook pages. If no `.page` note exists then it will just list out the detailed list of notes."
+    }
+  ]
+}
