@@ -4,7 +4,7 @@
     <title><?= $notebookPage ?></title>
 </head>
 <body>
-<h1>Site Title</h1>
+<a href="/"><h1>Site Title</h1></a>
 <nav>
     <?php 
         foreach ($metaTree['notebooks'] as $notebook) {
