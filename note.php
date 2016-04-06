@@ -27,12 +27,12 @@ foreach ($metaTree['current notebook']['notes'] as $note) {
 </aside>
 <main>
 <?php 
-  print_r($metaTree['current notebook']['current note']['content']);
-  echo "<br><br>";
+  // print_r($metaTree['current notebook']['current note']['content']);
+  // echo "<br><br>";
 
 foreach ($metaTree['current notebook']['current note']['content']['cells'] as $noteSection) {
-  print_r($noteSection);
-  echo "<br><br>";
+  $formaterFunction = "format_" . $noteSection['type'];
+  echo $formaterFunction($noteSection);
 }
 
  ?>

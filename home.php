@@ -10,7 +10,7 @@
     <?php
         foreach ($metaTree['notebooks'] as $notebook) {
             ?>
-            <a href="/<?= strtolower($notebook['name']); ?>"><?= $notebook['name']; ?></a>
+            <a href="/<?= to_url_friendly($notebook['name']); ?>"><?= $notebook['name']; ?></a>
             <?php
         }
      ?>
@@ -18,10 +18,9 @@
 <?php
 
 foreach ($metaTree['notebooks'] as $notebook) {
-    $noteCount = count($notebook['notes']);
     ?>
     <h3><?= $notebook['name'] ?></h3>
-    <h5><?= $noteCount ?> notes</h5>
+    <h5><?= $notebook['note_count'] ?> notes</h5>
     <?php
 }
 ?>

@@ -114,6 +114,7 @@ $app->get("/:notebookURL", function($notebookURL) {
 });
 
 $app->get("/:notebookURL/:noteURL", function($notebookURL, $noteURL) {
+    include "formater.php";
     $quiverLibrary = $_SERVER['DOCUMENT_ROOT'] . "/Quiver.qvlibrary";
     $metaTree = parse_library($quiverLibrary, $notebookURL);
     $metaTree['current notebook'] = parse_notebook($metaTree['current notebook'], $noteURL);
